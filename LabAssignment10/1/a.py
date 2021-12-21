@@ -184,7 +184,7 @@ def main():
     global gVertexArrayIndexed, gIndexArray
     if not glfw.init():
         return
-    window = glfw.create_window(640,640,'2019027001', None,None)
+    window = glfw.create_window(640,640,'', None,None)
     if not window:
         glfw.terminate()
         return
